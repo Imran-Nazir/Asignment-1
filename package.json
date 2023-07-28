@@ -1,9 +1,9 @@
 {
   "name": "asignment-1",
   "version": "1.0.0",
-  "main": "problem-4.js",
+  "main": "problem-1.js",
   "scripts": {
-    "Dev2": "nodemon problem-4.js"
+    "Dev2": "nodemon problem-1.js"
   },
   "keywords": [],
   "author": "",

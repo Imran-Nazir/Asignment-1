@@ -20,5 +20,5 @@ calculateGrade=(marks)=>{
     }
     return grade;
 }
-var input = 7;   //parseInt(prompt('Enter a number: '));
+var input = 90;   //parseInt(prompt('Enter a number: '));
 console.log(calculateGrade(input));

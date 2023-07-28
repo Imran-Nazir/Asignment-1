@@ -15,10 +15,8 @@ calculator=(input)=>{
         discount = input * (15/100);
     }
     new_amount = input-discount;
-    console.log('Total amount: $'+input);
-    console.log('Discount: $'+discount.toFixed(2));
-    console.log('Discounted amount: $'+new_amount);
+    console.log('Discounted amount:  $'+discount.toFixed(2)+'\nTotal amount:       $'+input+'\nDiscount amount:    $'+new_amount);
 
 }
-var input = 100;  //parseInt(prompt('Enter a number: '));
+var input = 137;  //parseInt(prompt('Enter a number: '));
 calculator(input);
